@@ -26,7 +26,7 @@
 				"bump"
 			],
 			"automerge": true,
-			"ignoreTests": true
+			"ignoreTests": true,
 			"automergeType": "branch"
 		}
 	],
