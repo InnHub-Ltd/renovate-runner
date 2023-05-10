@@ -18,7 +18,7 @@
 	"packageRules": [
 		{
 			"matchUpdateTypes": [
-        "minor",
+				"minor",
 				"patch",
 				"pin",
 				"digest",
@@ -26,6 +26,7 @@
 				"bump"
 			],
 			"automerge": true,
+			"ignoreTests": true
 			"automergeType": "branch"
 		}
 	],
