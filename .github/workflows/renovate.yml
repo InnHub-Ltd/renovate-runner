@@ -26,4 +26,4 @@ jobs:
           configurationFile: renovate-config.js
           token: '${{ steps.get_token.outputs.token }}'
         env:
-          LOG_LEVEL: 'warn'
+          LOG_LEVEL: ${{ runner.debug && 'debug' || 'warn' }}
